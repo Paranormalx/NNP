@@ -1,0 +1,58 @@
+
+#intern{
+    background-color: white;
+    height: 2500px;
+    font-size: 28px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(1, 245, 123);
+    color: black;
+  }
+
+
+  #tit{
+      text-align: center;
+      font-size: 45px;
+      margin: 0px;
+      font-style: oblique;
+
+  }
+  
+  #page{
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-top-color: rgb(1, 245, 123);
+    padding: 2px;
+    text-align: center;
+  }
+  
+  #foot{
+    text-align: center;
+    float: inline-end;
+    background-color: #333;
+    color: white;
+  }

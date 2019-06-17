@@ -1,0 +1,93 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(1, 245, 123);
+    color: black;
+  }
+
+
+  body{
+      font-size: 28px;
+      height: 2000px ;
+  }
+
+  #tit2{
+      font-size:45px;
+      font-style: oblique;
+      text-align: center;
+  }
+
+  #subtit1{
+      text-align: left;
+      font-style: oblique;
+      font-size: 35px;
+      
+    }
+
+
+  #spiegazione{
+      border-top-style: solid;
+      border-top-width: 4px;
+      border-top-color: rgb(1, 245, 123);
+      text-align: center;  
+  }
+
+  #generazione{
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-top-color: rgb(1, 245, 123);
+  }
+
+  #scelta{
+    float: left;
+    font-style: oblique;
+    font-size: 50px;
+  }
+
+  #numero{
+    float: right;
+    font-size: 60px;
+  }
+
+  #gen{
+    background-color: #333;
+    color:white;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    font-size: 45px;
+    float: right;
+  }
+
+  #gen:hover{
+    background-color: rgb(1, 245, 123);
+    color: black;
+  }
+
+  #foot{
+    text-align: center;
+    float: inline-end;
+    background-color: #333;
+    color: white;
+  }
